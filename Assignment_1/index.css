@@ -1,0 +1,52 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to right, rgb(111, 0, 255),violet, slateblue )
+}
+
+.container {
+    width: max-content;
+    height: max-content;
+    border: 4px;
+    border-style: solid;
+    border-color:darkorchid;
+    margin: 100px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6em;
+    font-family: 'Times New Roman';
+    color: rgba(57, 10, 167, 0.788);
+}
+
+p{
+    border: 3px;
+    border-style: solid;
+    border-color: rgba(57, 10, 167, 0.788);
+    position: relative;
+    border-width: 3px;
+    margin: 20%;
+    font-size: 5em;
+    color: black;
+    font-weight: bolder;
+}
+
+button {
+    border:none;
+    padding: 18px 10px;
+    font-size: 1.5em;
+    font-weight:bold;
+    width: 150px;
+    margin: 10px;
+    background-color: hotpink;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(57, 10, 167, 0.788);
+    transition: 0.4s;
+    border: none;
+
+
+}
